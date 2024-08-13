@@ -1,0 +1,11 @@
+trigger:
+- main
+
+pool:
+  name: 'Default'
+  demands:
+  - agent.name -equals [NOME_DO_SEU_AGENT]
+
+steps:
+- script: echo "Hello, World!"
+  displayName: 'Run Hello World'
