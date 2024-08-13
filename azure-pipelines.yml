@@ -4,7 +4,7 @@ trigger:
 pool:
   name: 'Default'
   demands:
-  - agent.name -equals [NOME_DO_SEU_AGENT]
+  - agent.name -equals [UbuntuVM]
 
 steps:
 - script: echo "Hello, World!"
